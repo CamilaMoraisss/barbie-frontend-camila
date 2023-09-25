@@ -35,10 +35,10 @@ export default function Main() {
         },
         {
             id:5,
-            titulo:'Barbie',
+            titulo:'Tere',
             sinopse:"Depois de ser expulsa da Barbieland por ser uma boneca de aparência menos do que perfeita, Barbie parte para o mundo humano em busca da verdadeira felicidade.",
             imagem:'/barbie.png'
-        },
+        }
     ]
 
     //O parâmetro "e" da minha função será o meu evento que ocorreu
