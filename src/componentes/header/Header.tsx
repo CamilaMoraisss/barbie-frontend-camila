@@ -9,16 +9,16 @@ function Header(){
             <nav>
                 <ul>
                     <li>
-                        <Link texto='Home'/>
+                        <Link url="/" texto='Home'/>
                     </li>
                     <li>
-                        <Link texto='Notícia'/>
+                        <Link url="/noticias" texto='Notícia'/>
                     </li>
                     <li>
-                        <Link texto='Sobre'/>
+                        <Link url="/sobre" texto='Sobre'/>
                     </li>
                     <li>
-                        <Link texto='Contato'/>
+                        <Link url="/contato" texto='Contato'/>
                     </li>
                 </ul>
             </nav>
