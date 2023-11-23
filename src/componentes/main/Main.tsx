@@ -9,6 +9,7 @@ type FilmeType = {
     sinopse:string,
     imagem:string
 }
+
 const URL_API = "http://localhost:3000/filmes"; 
 
 export default function Main() {
