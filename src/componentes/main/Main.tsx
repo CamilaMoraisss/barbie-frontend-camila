@@ -6,7 +6,7 @@ import axios from 'axios'
 type FilmeType = {
     id:number,
     titulo:string,
-    sinopse:string,
+    descricao:string,
     imagem:string
 }
 
@@ -48,7 +48,7 @@ export default function Main() {
                             (filme)=>
                                 <Filme 
                                     key={filme.id}
-                                    sinopse={filme.sinopse}
+                                    descricao={filme.descricao}
                                     titulo={filme.titulo}
                                     imagem={filme.imagem}
                                 />
